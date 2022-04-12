@@ -4,8 +4,8 @@ public class MultiplicationTable {
 
 	public static void main(String[] args) {
 		
-		for (int a =1; a<=8; a++) {
-			for(int b =1 ; b<=8; b++) {
+		for (int a =1; a<=10; a++) {
+			for(int b =1 ; b<=10; b++) {
 				System.out.println("******");
 				System.out.println(a+ "x"+ b+ " = "+ a*b);
 				/*the out put looks like this
